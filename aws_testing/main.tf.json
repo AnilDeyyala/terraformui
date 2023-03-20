@@ -8,16 +8,6 @@
     },
     {
         "resource": {
-            "aws_s3_object": {
-                "aws_test": {
-                    "bucket": "aws-res",
-                    "acl": "private"
-                }
-            }
-        }
-    },
-    {
-        "resource": {
             "aws_s3_bucket_accelerate_configuration": {
                 "s3_test": {
                     "bucket": "bucket_configuration",
