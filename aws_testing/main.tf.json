@@ -21,7 +21,6 @@
             "aws_s3_bucket": {
                 "s3": {
                     "bucket": "s3aws",
-                    "bucket_prefix": "s3",
                     "object_lock_enabled": "false"
                 }
             }
