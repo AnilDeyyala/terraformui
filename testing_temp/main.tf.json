@@ -1,0 +1,22 @@
+[
+    {
+        "provider": {
+            "azure": {
+                "region": "ap-south-1"
+            }
+        }
+    },
+    {
+        "resource": {
+            "azurerm_storage_account": {
+                "rg": {
+                    "name": "storagename",
+                    "resource_group_name": "rg_name",
+                    "location": "east-us",
+                    "account_tier": "standard",
+                    "account_replication_type": "LRS"
+                }
+            }
+        }
+    }
+]
