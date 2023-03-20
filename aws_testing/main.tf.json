@@ -8,9 +8,31 @@
     },
     {
         "resource": {
-            "aws_instance": {
-                "awsinstance": {
-                    "ami": "ami"
+            "aws_s3_object": {
+                "aws_test": {
+                    "bucket": "aws-res",
+                    "acl": "private"
+                }
+            }
+        }
+    },
+    {
+        "resource": {
+            "aws_s3_bucket_accelerate_configuration": {
+                "s3_test": {
+                    "bucket": "bucket_configuration",
+                    "status": "Suspended"
+                }
+            }
+        }
+    },
+    {
+        "resource": {
+            "aws_s3_bucket": {
+                "s3": {
+                    "bucket": "s3aws",
+                    "bucket_prefix": "1",
+                    "object_lock_enabled": "false"
                 }
             }
         }
